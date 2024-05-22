@@ -1,0 +1,21 @@
+<?php
+
+echo "GET:\r\n";
+
+foreach ($_GET as $key => $value) {
+	echo "$key\t$value\r\n";
+}
+
+echo "POST:\r\n";
+
+foreach ($_POST as $key => $value) {
+	echo "$key\t$value\r\n";
+}
+
+echo "COOKIE:\r\n";
+
+foreach ($_COOKIE as $key => $value) {
+	echo "$key\t$value\r\n";
+}
+
+?>

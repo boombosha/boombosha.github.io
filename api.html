@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>API</title>
+ </head>
+ <body>
+
+ <form action="api.php" method="post">
+  <select name="method">
+   <option value="messages">messages</option>
+  </select>
+  <select name="action">
+   <option value="getList">getList</option>
+   <option value="get">get</option>
+   <option value="add">add</option>
+   <option value="edit">edit</option>
+   <option value="remove">remove</option>
+   <option value="getLikes">getLikes</option>
+   <option value="addLike">addLike</option>
+  </select>
+  <p><input type="text" name="offset" value="0">offset</p>
+  <p><input type="text" name="count" value="5">count</p>
+  <p><input type="submit"></p>
+ </form>
+ 
+ <form action="api.php" method="post">
+  <select name="method">
+   <option value="messages">messages</option>
+  </select>
+  <select name="action">
+   <option value="addLike">addLike</option>
+  </select>
+  <p><input type="text" name="id" value="0">id</p>
+  <p><input type="submit"></p>
+ </form>
+
+ <!-- action: "add"
+author: строка ИМЯ ПОЛЬЗОВАТЕЛЯ
+content: строка ТЕКСТ СООБЩЕНИЯ -->
+<form action="api.php" method="post">
+    <select name="method">
+        <option value="messages">messages</option>
+    </select>
+    <select name="action">
+        <option value="addLike">addLike</option>
+    </select>
+    <p><input type="text" name="action" value="add"></p>
+    <p><input type="text" name="author" value="">автор</p>
+    <p><input type="text" name="content" value="">ТЕКСТ СООБЩЕНИЯ</p>
+    <p><input type="submit"></p>
+</form>
+
+ </body>
+</html>
