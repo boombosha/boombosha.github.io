@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'Le Murmure';
+  src: url('./fonts/LeMurmure-Regular.eot');
+  src: url('./fonts/LeMurmure-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/LeMurmure-Regular.woff2') format('woff2'),
+      url('./fonts/LeMurmure-Regular.woff') format('woff'),
+      url('./fonts/LeMurmure-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Euclid Circular A';
+  src: url('./fonts/EuclidCircularARegular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Floreste';
+  src: url('./fonts/Floreste-Wavy.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.page {
+  margin: 0;
+  padding-left: 60px;
+  background-color: #AE97E8;
+  max-width: 1920px;
+  color: white;
+}
+
+.main-page {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 53px;
+  padding-left: 0;
+}
+
+.logo {
+  font-family: 'Le Murmure';
+  font-size: 37px;
+  color: white;
+  margin: 0;
+  font-weight: 600;
+  padding-right: 133px;
+}
+
+.site-navigation {
+  font-family: 'Euclid Circular A';
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  margin-right: 40px;
+  list-style: none;
+  font-size: 18px;
+}
+
+.site-navigation a {
+  text-decoration: none;
+  color: white;
+}
+
+.catalog-icon {
+  margin-right: 15px;
+}
+
+.site-navigation-item:first-child {
+  margin-right: 387px;
+}
+
+.site-navigation-item:nth-child(2) {
+  margin-right: 30px;
+}
+
+.site-navigation-item:nth-child(3) {
+  margin-right: 386px;
+}
+
+.search-icon {
+  margin-right: 12px;
+}
+
+.site-navigation-item:nth-child(4) {
+  margin-right: 247px;
+}
+
+.site-navigation-item:nth-child(4) {
+  margin-right: 247px;
+}
+
+.site-navigation-item:nth-child(5), 
+.site-navigation-item:nth-child(6) {
+  margin-right: 36px;
+}
+
+/* товар дня */
+.product-of-the-day {
+  font-family: 'Euclid Circular A';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #D9FF5A;
+  margin-top: 251px;
+  margin-bottom: 0;
+  padding: 0;   
+}
+
+/* Benjamin Moore */
+.benjamin-moore {
+  position: absolute;
+  width: 1077px;
+  height: 201px;
+  left: 60px;
+  /* top: 460px; */
+  font-family: 'Floreste';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 212px;
+  line-height: 201px;
+  /* text-align: center; */
+  text-transform: uppercase;
+  color: rgba(203, 182, 255, 0.6);
+  z-index:-2;
+  margin-top: 285px;
+}
+
+.product-of-the-day-card-container {
+  display: grid;
+  margin-top: 65px;
+}
+
+.main-page-lamp {
+  z-index:-1;
+  position: absolute;
+  width: 362px;
+  height: 709px;
+  left: 417px;
+  top: 155px;
+}
+
+/* Описание продукта дня */
+.product-of-the-day-description {
+  margin-top: 372px;
+  font-family: 'Euclid Circular A';
+  max-width: 312px;
+  height: 195px;
+}
+
+/* Santa Trinita */
+.product-of-the-day-description h3 { 
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+.product-of-the-day-description p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.line {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  width: 274px;
+  margin: 0;
+  margin-top: 18px;
+  padding: 0;
+}
+
+.product-of-the-day-price {
+  display: flex;
+  margin-top: 28px;
+  font-family: 'Floreste';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #D9FF5A;
+  letter-spacing: 0.04em;
+  width: 107px;
+  /* height: 28px; */
+}
