@@ -240,7 +240,24 @@
 }
 
 .buy-button img {
-  color: #D9FF5A;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: calc(50% - 24px/2 - 45.5px);
+  top: calc(50% - 24px/2 + 1px);
+}
+
+.buy-button-text {
+  position: absolute;
+  width: 79px;
+  height: 24px;
+  left: 150px;
+  top: 65px;
+  font-family: 'Euclid Circular A';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
 }
 
 .ellipse-2 {
