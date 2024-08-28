@@ -321,3 +321,155 @@
   margin-top: 254px;
   margin-left: 22px;
 }
+
+/* Секция категорий */
+.categories {
+  display: flex;
+  flex-direction: column;
+  margin-top: 219px;
+  margin-right: 40px;
+  padding: 0;
+}
+
+/* Заголовок КАТЕГОРИИ */
+.categories h3 {
+  display: flex;
+  justify-content: center;
+  /* margin-top: auto; */
+  margin: 0;
+  padding: 0;
+  margin-bottom: 53px;
+  font-family: 'Euclid Circular A';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  /* line-height: 76px; */
+  text-transform: uppercase;
+}
+
+.category-cards {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+/* Карточка категории */
+.category-card {
+  width: 428px;
+  height: 517px;
+  gap: 0px;
+}
+
+.category-card h4 {
+  left: 5px;
+  top: 38px;
+  width: 140px;
+  font-family: 'Euclid Circular A';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.category-cards .category-card:last-child h4 {
+  width: 131px;
+}
+
+.category-card-ellipse {
+  position: relative;
+  width: 388px;
+  height: 500px;
+  left: 5px;
+  top: -145px;
+  z-index: -1;
+  background: no-repeat url(/img/category/Subtract.svg);
+}
+
+.pink-ellipse {
+  position: relative;
+  width: 81px;
+  height: 72px;
+  left: 342px;
+  top: 150px;
+  background: #FA8FEF;
+  transform: rotate(-23deg);
+  border-radius: 50%;
+}
+
+/* 4 */
+.warehouse-stock-number {
+  position: relative;
+  width: 15px;
+  height: 28px;
+  left: 19px;
+  top: 16px;
+  font-family: 'Floreste';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 38px;
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transform: rotate(-23deg);
+}
+
+/* шт */
+.warehouse-stock-unit {
+  position: relative;
+  left: 16px;
+  top: 18px;
+  font-family: 'Euclid Circular A';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  transform: rotate(-23deg);
+}
+
+/* изготовление на заказ */
+.custom-made {
+  display: inline-block;
+  font-family: 'Euclid Circular A';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  position: relative;
+  width: 89.17px;
+  height: 196.03px;
+  left: 24.2px;
+  top: 228.01px;
+}
+
+
+.circle {
+  display: block;
+  overflow: visible;
+  width: 100px;
+  font-size: 28px;
+  fill: red;
+
+  /* font-family: 'Euclid Circular A';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  position: relative;
+  width: 89.17px;
+  height: 196.03px;
+  left: 24.2px;
+  top: 228.01px; */
+}
+
+.circle path {
+    fill: none;
+}
