@@ -388,12 +388,13 @@
   background: no-repeat url(/img/category/Subtract.svg);
 }
 
+/* Количество остатков */
 .pink-ellipse {
   position: relative;
   width: 81px;
   height: 72px;
   left: 342px;
-  top: 150px;
+  top: -607px;
   background: #FA8FEF;
   transform: rotate(-23deg);
   border-radius: 50%;
@@ -436,51 +437,6 @@
   transform: rotate(-23deg);
 }
 
-/* изготовление на заказ */
-/* .custom-made {
-  display: inline-block;
-  font-family: 'Euclid Circular A';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  position: relative;
-  width: 89.17px;
-  height: 196.03px;
-  left: 24.2px;
-  top: 228.01px;
-} */
-
-
-/* .circle {
-  display: block;
-  overflow: visible;
-  width: 100px;
-  font-size: 28px;
-  fill: red;
-
-  font-family: 'Euclid Circular A';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  position: relative;
-  width: 89.17px;
-  height: 196.03px;
-  left: 24.2px;
-  top: 228.01px;
-} */
-
-/* .circle path {
-    fill: none;
-} */
-
-/* .category-card-ellipse .category-card-image {
-  position: relative;
-  top: -392px;
-  left: 96px;
-} */
-
 .category-cards .category-card:nth-child(-n+2) .category-card-image {
   position: relative;
   top: -392px;
@@ -497,4 +453,83 @@
   position: relative;
   top: -378px;
   left: 91px;
+}
+
+.arrow-down-circle {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: relative;
+  width: 101px;
+  height: 101px;
+  left: 149px;
+  top: -229px;
+  background: rgba(235, 227, 255, 0.19);
+  border: 2px solid #D9FF5A;
+  border-radius: 50%;
+}
+
+.arrow-down {
+  /* margin: auto 0; */
+  margin-top: 32px;
+}
+
+.stripes {
+  margin-top: 170px;
+  height: 261px;
+  margin-bottom: 170px;
+}
+
+.stripe {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 72px;
+}
+
+.blue-stripe {
+  left: -249px;
+  width: 2286px;
+  top: 89px;
+  background: #AECEFF;
+  transform: rotate(-2deg);
+}
+
+.violet-stripe {
+  left: -78px;
+  top: 31px;
+  width: 2236px;
+  background: #CBB6FF;
+  transform: rotate(5deg);
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.blue-stripe .stripe-inscription {
+  display: flex;
+  align-items: center;
+  transform: rotate(-0.2deg);
+}
+
+.violet-stripe .stripe-inscription {
+  display: flex;
+  align-items: center;
+  height: 29px;
+  transform: rotate(-0.2deg);
+}
+
+.stripe-inscription div {
+  font-family: 'Floreste';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.stripe-star {
+  margin: 0 66px;
 }
