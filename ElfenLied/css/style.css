@@ -478,7 +478,7 @@
 .stripes {
   margin-top: 170px;
   height: 261px;
-  margin-bottom: 170px;
+  margin-bottom: 172px;
 }
 
 .stripe {
@@ -532,4 +532,49 @@
 
 .stripe-star {
   margin: 0 66px;
+}
+
+.blog {
+  display: flex;
+}
+
+.blog-group {
+  display: flex;
+}
+
+.blog-group h3 {
+  font-family: 'Euclid Circular A';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 43px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  margin-bottom: auto;
+}
+
+.paginator {
+  display: flex;
+
+}
+
+.little-ellipse {
+  width: 7px;
+  height: 7px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 18px;
+  margin-right: 7px;
+}
+
+.little-ellipse:nth-child(2) {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(25px);
+}
+
+.little-ellipse:last-child {
+  margin-right: 45px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(25px);
 }
