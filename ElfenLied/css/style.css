@@ -347,6 +347,7 @@
   text-transform: uppercase;
 }
 
+/* Карточки категорий */
 .category-cards {
   margin: 0;
   padding: 0;
@@ -436,7 +437,7 @@
 }
 
 /* изготовление на заказ */
-.custom-made {
+/* .custom-made {
   display: inline-block;
   font-family: 'Euclid Circular A';
   font-style: normal;
@@ -448,17 +449,17 @@
   height: 196.03px;
   left: 24.2px;
   top: 228.01px;
-}
+} */
 
 
-.circle {
+/* .circle {
   display: block;
   overflow: visible;
   width: 100px;
   font-size: 28px;
   fill: red;
 
-  /* font-family: 'Euclid Circular A';
+  font-family: 'Euclid Circular A';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -467,9 +468,33 @@
   width: 89.17px;
   height: 196.03px;
   left: 24.2px;
-  top: 228.01px; */
+  top: 228.01px;
+} */
+
+/* .circle path {
+    fill: none;
+} */
+
+/* .category-card-ellipse .category-card-image {
+  position: relative;
+  top: -392px;
+  left: 96px;
+} */
+
+.category-cards .category-card:nth-child(-n+2) .category-card-image {
+  position: relative;
+  top: -392px;
+  left: 96px;
 }
 
-.circle path {
-    fill: none;
+.category-cards .category-card:nth-child(3) .category-card-image {
+  position: relative;
+  top: -385px;
+  left: 120px;
+}
+
+.category-cards .category-card:nth-child(4) .category-card-image {
+  position: relative;
+  top: -378px;
+  left: 91px;
 }
